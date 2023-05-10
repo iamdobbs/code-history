@@ -32,6 +32,10 @@ var guessWasMade: Bool {
         return false
     }
 }
+    
+    var gameIsOver: Bool {
+        game.isOver
+    }
 
 // MARK: - Internal Methods
 // 2
