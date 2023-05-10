@@ -18,6 +18,7 @@
 		67804CEC2A0BE78B00BC872C /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67804CEB2A0BE78B00BC872C /* GameColor.swift */; };
 		67804CEE2A0BE89E00BC872C /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67804CED2A0BE89E00BC872C /* BottomTextView.swift */; };
 		67804CF12A0BF27400BC872C /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67804CF02A0BF27400BC872C /* GameViewModel.swift */; };
+		67804CF32A0BF4F500BC872C /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67804CF22A0BF4F500BC872C /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		67804CEB2A0BE78B00BC872C /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 		67804CED2A0BE89E00BC872C /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 		67804CF02A0BF27400BC872C /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		67804CF22A0BF4F500BC872C /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				67804CEB2A0BE78B00BC872C /* GameColor.swift */,
 				67804CE32A0A5CA200BC872C /* ChoiceTextView.swift */,
 				6753BAFA2A057A2B00BDB415 /* GameView.swift */,
+				67804CF22A0BF4F500BC872C /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67804CF32A0BF4F500BC872C /* QuestionView.swift in Sources */,
 				67804CF12A0BF27400BC872C /* GameViewModel.swift in Sources */,
 				67804CE02A0A570F00BC872C /* Question.swift in Sources */,
 				67804CEA2A0ADECB00BC872C /* WelcomeView.swift in Sources */,

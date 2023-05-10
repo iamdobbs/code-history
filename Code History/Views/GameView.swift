@@ -24,23 +24,10 @@ struct GameView: View {
                     .font(.callout)
                     .multilineTextAlignment(.leading)
                     .padding()
-                Text(question.questionText)
-                    .font(.largeTitle)
-                    .bold()
-                    .multilineTextAlignment(.leading)
-                Spacer()
-                HStack{
-                    ForEach(0..<question.possibleAnswers.count) { answerIndex in
-                        Button(action: {
-                            print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
-                        }, label: {
-                            ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
-                        })
-                    }
-                }
+                QuestionView(question: viewModel.currentQuestion)
             }
+            .foregroundColor(.white)
         }
-        .foregroundColor(.white)
     }
 }
 
