@@ -43,5 +43,6 @@ struct QuestionView: View {
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
         QuestionView(question: Game().currentQuestion)
+            .environmentObject(GameViewModel())
     }
 }

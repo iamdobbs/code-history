@@ -17,7 +17,7 @@ struct ChoiceTextView: View {
             .multilineTextAlignment(.center)
             .padding()
             .border(GameColor.accent, width: 4)
-}
+        }
 }
 
 struct ChoiceTextView_Previews: PreviewProvider {

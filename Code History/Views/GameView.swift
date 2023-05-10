@@ -22,6 +22,7 @@ struct GameView: View {
                 QuestionView(question: viewModel.currentQuestion)
             }
             .foregroundColor(.white)
+            .padding()
             .navigationBarHidden(true)
             .environmentObject(viewModel)
         }
