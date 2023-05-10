@@ -59,4 +59,12 @@ func color(forOptionIndex optionIndex: Int) -> Color {
          return GameColor.main
      }
  }
+    
+    var correctGuesses: Int {
+        game.guessCount.correct
+    }
+    
+    var incorrectGuesses: Int {
+        game.guessCount.incorrect
+    }
 }
