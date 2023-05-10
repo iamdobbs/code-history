@@ -27,6 +27,7 @@ struct GameView: View {
                 QuestionView(question: viewModel.currentQuestion)
             }
             .foregroundColor(.white)
+            .environmentObject(viewModel)
         }
     }
 }
